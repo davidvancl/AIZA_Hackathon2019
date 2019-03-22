@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72464bf0-0294-4f70-a952-ec641770e946" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/HACKATLON.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/.vs/Client/v15/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/.vs/Client/v15/Server/sqlite3/db.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/.vs/Client/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/.vs/Client/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/.vs/Client/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/Client.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/Form1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/Form1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/Form1.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/Client.Form1.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/Client.Properties.Resources.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/Client.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/Client.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/Client.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/Client.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/Client.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/Client.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/.vs/Server/v15/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/.vs/Server/v15/Server/sqlite3/db.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/.vs/Server/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/.vs/Server/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/.vs/Server/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/Form1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/Form1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/Form1.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/Server.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/Server.Form1.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/Server.Properties.Resources.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/Server.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/Server.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/Server.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/Server.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/Server.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/Server.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vos_sps_jc_hackatlon/index.php" />
+        <option value="$PROJECT_DIR$/MultiDataSending/Services/index.php" />
+        <option value="$PROJECT_DIR$/MultiDataSending/Services/Utils/DataConnection.php" />
+        <option value="$PROJECT_DIR$/MultiDataSending/Services/upload_message.php" />
+        <option value="$PROJECT_DIR$/MultiDataSending/Services/download_message.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="78" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HACKATLON" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HACKATLON" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72464bf0-0294-4f70-a952-ec641770e946" name="Default Changelist" comment="" />
+      <created>1552340559969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552340559969</updated>
+      <workItem from="1552340564316" duration="742000" />
+      <workItem from="1552343359433" duration="28000" />
+      <workItem from="1552426813793" duration="1000" />
+      <workItem from="1552487065254" duration="960000" />
+      <workItem from="1552488108258" duration="724000" />
+      <workItem from="1552488945460" duration="28000" />
+      <workItem from="1552489139270" duration="669000" />
+      <workItem from="1552489851123" duration="37000" />
+      <workItem from="1553279606085" duration="270000" />
+      <workItem from="1553279917480" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3510000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vos_sps_jc_hackatlon/index.php" />
+    <entry file="file://$PROJECT_DIR$/MultiDataSending/Services/index.php" />
+    <entry file="file://$PROJECT_DIR$/MultiDataSending/Services/Utils/DataConnection.php" />
+    <entry file="file://$PROJECT_DIR$/MultiDataSending/Services/download_message.php" />
+    <entry file="file://$PROJECT_DIR$/MultiDataSending/Services/upload_message.php" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

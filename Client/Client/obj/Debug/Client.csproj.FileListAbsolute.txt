@@ -1,0 +1,10 @@
+C:\Users\vancl\Desktop\TCP_C#\Client\Client\bin\Debug\Client.exe.config
+C:\Users\vancl\Desktop\TCP_C#\Client\Client\bin\Debug\Client.exe
+C:\Users\vancl\Desktop\TCP_C#\Client\Client\bin\Debug\Client.pdb
+C:\Users\vancl\Desktop\TCP_C#\Client\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\vancl\Desktop\TCP_C#\Client\Client\obj\Debug\Client.Form1.resources
+C:\Users\vancl\Desktop\TCP_C#\Client\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\vancl\Desktop\TCP_C#\Client\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\vancl\Desktop\TCP_C#\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\vancl\Desktop\TCP_C#\Client\Client\obj\Debug\Client.exe
+C:\Users\vancl\Desktop\TCP_C#\Client\Client\obj\Debug\Client.pdb
