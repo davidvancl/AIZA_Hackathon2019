@@ -1,3 +1,3 @@
 # Snake
-Programming language: C#
+Programming language: C# <br>
 Application: WPF
