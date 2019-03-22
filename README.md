@@ -5,4 +5,4 @@ Application: WinForm
 Protocol: TCP
 Using "Threads" for no freezing
 Basic communication
-"Bin" has been removed -> use Visual Studio 
+"Bin" has been removed -> use Visual Studio # Snake-fast-way
