@@ -1,0 +1,163 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="theme-color" content="#FF3333"/>
+        <title>AIZA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-signin-client_id" content="134364624602-mlaldh8lh5pluonvggulanu0f5ksurhd.apps.googleusercontent.com">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="stylesheet" href="./vlastni.css">
+      </head>
+    <body style="background: lightgray" class="defaultni">
+    
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="./serviceWorker.js"></script>
+  
+              <!-- Navbar -->
+    
+              <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FF0000" id="nav" >
+              
+        
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+          
+          
+          
+          
+                      <div class="collapse navbar-collapse " id="navbarTogglerDemo01"   >
+                         <img src="./Images/logoFinalBigWhite.png" width="300">
+
+                         
+                      </div>  
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01"  >
+                      <nav class="navbar form-inline navbar-right ">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                          <li class="nav-item ">
+                            <a class="nav-link" href="./index.html"><h1>Domovská stránka</h1><span class="sr-only">(current)</span></a>
+                          </li>
+                          
+                          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                          <li class="nav-item ">
+                                  <a class="nav-link" href="mapNew.html"><h1>Aplikační mapa</h1></a>
+                                </li>
+          
+                          <li class="nav-item mr-sm-2">
+                            <a class="nav-link" href="tables.html"><h1>Textová vizualizace</h1></a>
+                          </li>
+
+                          <li class="nav-item mr-sm-2">
+                            <a class="nav-link active" href="oprojektu.html"><h1>O projektu</h1></a>
+                          </li>
+                        </ul>
+                    </nav>
+                    </nav>
+                  </div>  
+              <!-- Navbar -->
+  
+    <!--Navbar ScrollFix-->
+  
+    <script>
+      document.addEventListener("scroll",function(e) {
+         if ($(window).scrollTop() > 660) {
+           $("#nav").addClass("fixed-top");
+         } else {
+           $("#nav").removeClass("fixed-top");
+         }
+         
+       });
+       </script>
+     
+       <!--Navbar ScrollFix-->
+    
+    
+    
+    
+  
+    <!-- Logo Shower 
+    <br>
+    <div class="container" style="background-color: #FF3333">
+      <div class="row">
+        <div class="col-4 mx-auto text-center">
+          <img class="mx-auto d-block" src="./Images/logoFinalBigWhite.png" width="300">
+        </div>
+      </div>
+  </div>
+   --> <!-- /Logo Shower -->
+    
+  
+    
+    <!-- Jumbotron Content -->
+    <br> <br> 
+    <div class="jumbotron">
+      <h1 class="display-4" >AIZA</h1>
+      <p class="">Aplikace pro ty, co se našli v nesnázích.</p>
+      <hr class="my-4" >
+      <p>Využíjte naší interaktivní mapu, díky ktéré můžete najít pomoc kdykoliv a kdekoliv, nebo si v rejstříku tabulek najděte pobočku, kterou potřebujete.</p>
+    </div>
+  
+    <div class="jumbotron">
+      <h1 class="display-4">Opendata</h1>
+      <p class="">Data, která jsou volně dostupná pro každého.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-primary btn-lg" href="http://www.kr-kralovehradecky.cz/cz/kraj-volene-organy/sklad/opendata/otevrena-data-301831/" role="button">Zjistit více</a>
+    </div>
+  
+    <div class="jumbotron">
+      <h1 class="display-4">PWA</h1>
+      <p class="">Využívejte aplikaci i ofline pomocí cutting edge technologie PWA</p>
+      <hr class="my-4">
+      <p>Progresivní Webové Aplikace (Dále jen PWA) jsou poměrně nová technologie, kterou představila firma Google. Poprvé byl termín PWA použit v roce 2015. PWA je výsledek snahy spojení možností webových aplikací s jednoduchostí a komfortem nativních mobilních aplikací. Hlavními výhodami oproti klasickým webovým aplikacím jsou rychlejší načítání dat z důvodu cashování celé aplikace na zařízení, na kterém je PWA aplikace spuštěna. Dále je to příjemnější UX (User Experience), který je pro spoustu uživatelů hlavním měřítkem ve výběru aplikace. Další výhodou je možnost využívání service workeru a aplikačního manifestu, který při správném použití sám nabídne možnost přidání zástupce aplikace na plochu. Tento zástupce umožní aplikaci fungovat jako nativní (kterákoliv jiná aplikace nainstalovaná přímo v paměti zařízení a ne na webu jako PWA). Důležitá pozitivní vlastnost pro vývojáře je i jednoduchost publikování aplikace oproti nativním aplikacím, protože publikování PWA je stejné jako u webových stránek.</p>
+      <a class="btn btn-primary btn-lg" href="https://developer.microsoft.com/cs-cz/windows/pwa" role="button">Zjistit více</a>
+    </div>
+  
+    
+  
+  <br><br><br><br><br><br>
+    <!-- Footer -->
+    
+      <footer class="page-footer font-small pt-4" style="background-color:#5e5e5f; color: #fff">
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-10 mb-md-0 mb-3">
+              <h5 class="text-uppercase font-weight-bold">O projektu</h5>
+              <p>Tato webová aplikace byla vytvoře v rámci projektu Hackathon Hradec Králové.</p>
+            </div>
+    
+            <div class="col-md-2 mt-md-0 mt-3 ">
+              <h5 class="text-uppercase font-weight-bold">Sociální sítě</h5>
+              <a href="https://www.facebook.com/kralovehradeckykr/">
+                <img src="./Images/fb.png" height="32px">
+              </a>       
+              <a href='http://www.kr-kralovehradecky.cz/'>
+                <img src="./Images/HK_Logo_pruhledny.png" height="32px">
+              </a>
+              <a href='https://twitter.com/_hradeckralove?'>
+                <img src="./Images/twitterLogo.png" height="32px">
+              </a>
+              <a href='https://www.instagram.com/_hradeckralove/'>
+                <img src="./Images/instagram.png" height="32px">
+              </a>
+  
+  
+  
+            </div>
+    
+          </div>
+        </div>
+      
+        
+      </footer>
+  
+    
+    </body>
+    </html>

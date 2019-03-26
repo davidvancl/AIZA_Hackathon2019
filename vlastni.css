@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Radikal';
+    src: url('/css/radikal2.woff2') format('woff2'),
+         url('/css/radikal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+    h1 {
+        font-family: 'Radikal', Arial, sans-serif;
+        font-weight:normal;
+        font-style:normal;
+        font-size: 20px;
+        }
+
+    .defaultni {
+            font-family: 'Radikal', Arial, sans-serif;
+            font-weight:normal;
+            font-style:normal;
+            font-size: 20px;
+            }  
+            
+            
+            

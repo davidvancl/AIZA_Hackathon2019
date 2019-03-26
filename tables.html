@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SB Admin 2 - Tables</title>
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this page -->
+  <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+  <script src="https://rawgit.com/henix/csv.js/master/csv.js"></script>
+  <script src="https://rawgit.com/mholt/PapaParse/master/papaparse.min.js"></script>
+  
+  
+  <link rel="stylesheet" href="./vlastni.css">
+</head>
+
+<body  id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+   
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      
+
+      <!-- Main Content -->
+      <div id="content">
+         <!-- Navbar -->
+  
+         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FF0000" id="nav" >
+              
+        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+      
+      
+      
+                  <div class="collapse navbar-collapse " id="navbarTogglerDemo01"   >
+                     <img src="./Images/logoFinalBigWhite.png" width="300">
+
+                     
+                  </div>  
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01"  >
+                  <nav class="navbar form-inline navbar-right ">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                      <li class="nav-item ">
+                        <a class="nav-link" href="./index.html"><h1>Domovská stránka</h1><span class="sr-only">(current)</span></a>
+                      </li>
+                      
+                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                      <li class="nav-item ">
+                              <a class="nav-link" href="mapNew.html"><h1>Aplikační mapa</h1></a>
+                            </li>
+      
+                      <li class="nav-item mr-sm-2">
+                        <a class="nav-link active" href="tables.html"><h1>Textová vizualizace</h1></a>
+                      </li>
+
+                      <li class="nav-item mr-sm-2">
+                        <a class="nav-link" href="oprojektu.html"><h1>O projektu</h1></a>
+                      </li>
+                    </ul>
+                </nav>
+                </nav>
+              </div>  
+          <!-- Navbar -->
+
+          <!--Navbar ScrollFix-->
+
+          <script>
+            document.addEventListener("scroll",function(e) {
+               if ($(window).scrollTop() > 660) {
+                 $("#nav").addClass("fixed-top");
+               } else {
+                 $("#nav").removeClass("fixed-top");
+               }
+
+             });
+             </script>
+
+           <!--Navbar ScrollFix-->
+           <br>
+<div class="container">
+        <ul class="nav nav-pills nav-fill justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" onclick="datachange('Policie')" id="nav-Policie">Policie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="datachange('HZS')" id="nav-HZS">Stanice HZS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="datachange('ZZS')" id="nav-ZZS">Základny ZZS</a>
+            </li>
+          </ul>
+        </div>
+
+          <!-- DataTales Example -->
+          <br><br><br>
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Seznam okrsků</h6>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
+                </table>
+              </div>
+            </div>
+          </div>
+          <br><br><br>
+
+
+ <!-- Footer -->
+  
+ <footer class="page-footer font-small pt-4" style="background-color:#5e5e5f; color: #fff">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-10 mb-md-0 mb-3">
+          <h5 class="text-uppercase font-weight-bold">O projektu</h5>
+          <p>Tato webová aplikace byla vytvoře v rámci projektu Hackathon Hradec Králové.</p>
+        </div>
+
+        <div class="col-md-2 mt-md-0 mt-3 ">
+          <h5 class="text-uppercase font-weight-bold">Sociální sítě</h5>
+          <a href="https://www.facebook.com/kralovehradeckykr/">
+            <img src="./Images/fb.png" height="32px">
+          </a>       
+          <a href='http://www.kr-kralovehradecky.cz/'>
+            <img src="./Images/HK_Logo_pruhledny.png" height="32px">
+          </a>
+          <a href='https://twitter.com/_hradeckralove?'>
+            <img src="./Images/twitterLogo.png" height="32px">
+          </a>
+          <a href='https://www.instagram.com/_hradeckralove/'>
+            <img src="./Images/instagram.png" height="32px">
+          </a>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  
+    
+  </footer>
+
+      </div>
+      <!-- End of Main Content -->
+
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/datatables-demo.js"></script>
+
+  
+  <!--utilita stahující openData JavaScript-->
+  <script src="CustomJS/LoadTable.js"></script>
+
+</body>
+
+</html>
+
