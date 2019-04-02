@@ -26,4 +26,12 @@
             }  
             
             
-            
+            #informace{
+                font-family: 'Radikal', Arial, sans-serif;
+                font-weight:normal;
+                font-style:normal;
+                font-size: 20px;
+                margin-left: 0.4%;
+                
+
+            }        

@@ -25,6 +25,11 @@
   
   
   <link rel="stylesheet" href="./vlastni.css">
+
+  <style>
+
+  </style>
+
 </head>
 
 <body  id="page-top">
@@ -96,8 +101,8 @@
              </script>
 
            <!--Navbar ScrollFix-->
-           <br>
-<div class="container">
+           
+<!--<div class="container">
         <ul class="nav nav-pills nav-fill justify-content-center">
             <li class="nav-item">
               <a class="nav-link active" onclick="datachange('Policie')" id="nav-Policie">Policie</a>
@@ -109,10 +114,37 @@
               <a class="nav-link" onclick="datachange('ZZS')" id="nav-ZZS">Základny ZZS</a>
             </li>
           </ul>
-        </div>
+        </div>-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light " id="nav"   >
+          <!--<a class="navbar-brand" href="#">Vyhledat služby</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>-->
+          <div class=" navbar-collapse  justify-content-center" id="navbarNav" >
+            <!--<ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="datachange('Policie')"  id="has"><h1>Policie</h1></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="datachange('HZS')" id="zach"><h1>Stanice HZS</h1></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" onclick="datachange('ZZS')" id="pol"><h1>Základny ZZS</h1></a>
+              </li>
+            </ul>-->
+            <form class="form-inline ">                
+                <button class="btn btn-outline-dark mr-2 btn-lg" onclick="datachange('Policie')"  type="button">Policie</button>
+                <button class="btn btn-outline-dark mr-2 btn-lg" onclick="datachange('HZS')"  type="button">Stanice HZS</button>
+                <button class="btn btn-outline-dark mr-2 btn-lg" onclick="datachange('ZZS')"  type="button">Základny ZZS</button>
+          </form>   
+          </div>
+        </nav>
+
+
 
           <!-- DataTales Example -->
-          <br><br><br>
+          
           <div class="card shadow mb-4">
             <div class="card-header py-3">
               <h6 class="m-0 font-weight-bold text-primary">Seznam okrsků</h6>
