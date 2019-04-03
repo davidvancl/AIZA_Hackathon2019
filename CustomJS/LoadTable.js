@@ -57,6 +57,14 @@ function LoadTable(dataSet,title) {
             "infoFiltered": "(filtered from _MAX_ total records)"
         }
     } ); 
+    //edit
+    /* 
+    table.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+   var data = this.data();
+   data[2] += ' >> updated in loop' //append a string to every col #2
+   this.data(data)
+        } )
+ */
 }
 
 function datachange(tableType) {
