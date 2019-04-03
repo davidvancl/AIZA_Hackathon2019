@@ -1,51 +1,39 @@
-﻿var PolicieDataSet = new Array();
-var PolicieTitleSet = new Array();
-var HasiciData = new Array();
-var ZachrankaData = new Array();
-var test;
-line = 0;
-LoadData("Files/Policie-CR.csv",PolicieDataSet,PolicieTitleSet,0);
+﻿var PolicieDataSet = new Array(),HasiciDataSet = new Array(),ZachrankaDataSet = new Array();
+var PolicieTitleSet = [],HasiciTitleSet = [],ZachrankaTitleSet = [];
 
-/* line = 0;
-LoadData("Files/Stanice-a-pracoviste-HZS.csv",HasiciData,false,0);
-line = 0;
-LoadData("Files/Vyjezdove-zakladny-ZZS.csv",ZachrankaData,false,0); */
-function LoadData(Soubor,dataSet,TitleSet,AktualniRadek) {
-    var bool = true;
-    var _titleSet = [];
+LoadData("Files/Policie-CR.csv",PolicieDataSet,PolicieTitleSet,true);
+LoadData("Files/Stanice-a-pracoviste-HZS.csv",HasiciDataSet,HasiciTitleSet);
+LoadData("Files/Vyjezdove-zakladny-ZZS.csv",ZachrankaDataSet,ZachrankaTitleSet);
+
+function LoadData(Soubor,dataSet,titleSet,load) {
+    var RowNumber = 0;
+    var FirstRow = true;
     Papa.parse(Soubor, {
     download: true,
     step: function(row) {
         try { 
             
-            if(bool){
-                bool = false;
+            if(FirstRow){
+                FirstRow = false;
                 row.data.forEach(element => {
-                    //console.log(element);
                     var item = {};
                     item ["title"] = element;
-                    _titleSet.push(item);
+                    titleSet.push(item);
                 });
-
-                test = _titleSet;
-                TitleSet = _titleSet;
             
             }else{
                 if(row.data != ""){
-                    dataSet[AktualniRadek] = row.data;    
-                    AktualniRadek++;
+                    dataSet[RowNumber] = row.data;    
+                    RowNumber++;
                 }
-            }      
-            
+            }            
         } catch (e) { }
     },
     complete: function() {
-            
-                //ToTable(writeField);
-                //console.log(writeField)
-                LoadTable(dataSet,_titleSet);
-        
-            }
+            if(load){
+                LoadTable(dataSet,titleSet); 
+            }                         
+        }
     });
 }
 var seznamStanicTable;
