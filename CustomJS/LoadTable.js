@@ -1,6 +1,6 @@
 ﻿var PolicieDataSet = new Array(),HasiciDataSet = new Array(),ZachrankaDataSet = new Array();
 var PolicieTitleSet = [],HasiciTitleSet = [],ZachrankaTitleSet = [];
-
+var test;
 LoadData("Files/Policie-CR.csv",PolicieDataSet,PolicieTitleSet,true);
 LoadData("Files/Stanice-a-pracoviste-HZS.csv",HasiciDataSet,HasiciTitleSet);
 LoadData("Files/Vyjezdove-zakladny-ZZS.csv",ZachrankaDataSet,ZachrankaTitleSet);
@@ -61,6 +61,8 @@ function LoadTable(dataSet,title) {
 
 function datachange(tableType) {
     seznamStanicTable.destroy();
+    $('.btn-table').removeClass('active');
+    $('.btn-table#'+tableType).addClass("active")
     switch (tableType) {
         
         case "Policie":
