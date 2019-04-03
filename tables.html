@@ -101,20 +101,6 @@
              </script>
 
            <!--Navbar ScrollFix-->
-           
-<!--<div class="container">
-        <ul class="nav nav-pills nav-fill justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" onclick="datachange('Policie')" id="nav-Policie">Policie</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" onclick="datachange('HZS')" id="nav-HZS">Stanice HZS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" onclick="datachange('ZZS')" id="nav-ZZS">Základny ZZS</a>
-            </li>
-          </ul>
-        </div>-->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light " id="nav"   >
           <!--<a class="navbar-brand" href="#">Vyhledat služby</a>
@@ -133,11 +119,14 @@
                 <a class="nav-link " href="#" onclick="datachange('ZZS')" id="pol"><h1>Základny ZZS</h1></a>
               </li>
             </ul>-->
+            <!-- Přepínací panel -->
             <form class="form-inline ">                
-                <button class="btn btn-outline-dark mr-2 btn-lg" onclick="datachange('Policie')"  type="button">Policie</button>
-                <button class="btn btn-outline-dark mr-2 btn-lg" onclick="datachange('HZS')"  type="button">Stanice HZS</button>
-                <button class="btn btn-outline-dark mr-2 btn-lg" onclick="datachange('ZZS')"  type="button">Základny ZZS</button>
-          </form>   
+              <button class="btn btn-outline-dark mr-2 btn-lg" onclick="datachange('Policie')"  type="button">Policie</button>
+              <button class="btn btn-outline-dark mr-2 btn-lg" onclick="datachange('HZS')"  type="button">Stanice HZS</button>
+              <button class="btn btn-outline-dark mr-2 btn-lg" onclick="datachange('ZZS')"  type="button">Základny ZZS</button>
+              <!-- <a class="collapse" href="#Policie"></a><script id="Policie"></script> -->
+            </form>   
+            <!-- END Přepínací panel -->
           </div>
         </nav>
 
@@ -196,7 +185,7 @@
   
     
   </footer>
-
+  <!-- END Footer -->
       </div>
       <!-- End of Main Content -->
 
